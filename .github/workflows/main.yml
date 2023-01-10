@@ -34,7 +34,7 @@ jobs:
         run: npm i -g typescript
 
       - name: Build App
-        run: yarn build
+        run: yarn run build
 
       - name: Semantic Release
         env:
