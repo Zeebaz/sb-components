@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006",
-    "build": "yarn clean && tsc && yarn copy-files",
+    "build": "yarn run clean && tsc && yarn run copy-files",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "deploy": "http-server ./storybook-static -o",
