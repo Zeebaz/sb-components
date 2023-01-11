@@ -16,7 +16,8 @@
   "release": {
     "branches": [
       "main"
-    ]
+    ],
+    "repositoryUrl": "https://github.com/Zeebaz/sb-components"
   },
   "files": [
     "dist",
