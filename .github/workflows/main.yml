@@ -28,10 +28,7 @@ jobs:
           node-version: 16.17
 
       - name: Install Dependencies
-        run: yarn install
-
-      - name: Install Typescript
-        run: npm i -g typescript
+        run: yarn
 
       - name: Build App
         run: yarn run build
